@@ -17,7 +17,7 @@ public class DynamicArray<T>{
 		return (T) data[index];
 	}
 	
-	public void add(int element)
+	public void add(T element)
 	{
 		ensureCapacity(size);
 		data[size] = element;
